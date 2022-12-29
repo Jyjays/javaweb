@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>log</title>
+</head>
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    body {
+        background-color: rgb(10, 158, 133);
+    }
+
+    .login {
+        text-align: center;
+        margin-top: 100px;
+    }
+
+    .login ul li input[type=text],
+    .login ul li input[type=password] {
+        font-size: 16px;
+    }
+
+    .login ul li input {
+        width: 275px;
+        height: 40px;
+        margin-top: 20px;
+    }
+
+    .login ul li input[type=button] {
+        width: 100px;
+        height: 40px;
+    }
+</style>
+</head>
+
+<body>
+<div id="loginDiv">
+    <form action="/logdemo/log1" method="post" id="form">
+        <h1 id="loginMsg">LOGIN IN</h1>
+        <p>username:<input id="username" name="username" type="text"></p>
+        <p>password:<input id="password" name="password" type="password"></p>
+
+        <div id="subDiv">
+            <input type="submit" class="button" value="login up">
+            <input type="reset" class="button" value="reset">
+            <a href="register.html">没有账号?点击注册</a>
+        </div>
+    </form>
+</div>
+
+</body>
+
+</html>

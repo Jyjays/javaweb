@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+  li {
+    list-style: none;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  body {
+    background-color: rgb(10, 158, 133);
+  }
+
+  .post {
+    text-align: center;
+    margin-top: 100px;
+  }
+
+  .post ul li input[type=text],
+  .post ul li input[type=password],
+  .post ul li input[type=email] {
+    font-size: 16px;
+  }
+
+  .post ul li input {
+    width: 275px;
+    height: 40px;
+    margin-top: 20px;
+  }
+
+  .post ul li input[type=submit] {
+    width: 100px;
+    height: 40px;
+  }
+</style>
+</head>
+
+<body>
+<form id="reg-form" action="/logdemo/log2" method="post">
+  <table>
+      <tr>
+          <td>用户名</td>
+          <td class="inputs">
+              <input name="username" type="text" id="username">
+          </td>
+      </tr>
+      <tr>
+          <td>密码</td>
+          <td class="inputs">
+              <input name="password" type="password" id="password">
+          </td>
+      </tr>
+  </table>
+    <div class="buttons">
+        <input value="注 册" type="submit" id="reg_btn">
+    </div>
+    <br class="clear">
+</form>
+</body>
+
+</html>

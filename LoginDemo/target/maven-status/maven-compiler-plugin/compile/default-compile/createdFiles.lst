@@ -1,0 +1,6 @@
+com\jyjays\logdemo\registerServlet.class
+com\jyjays\logdemo\logServlet.class
+com\jyjays\util\SqlSessionFactoryUtils.class
+com\jyjays\mapper\UserMapper.class
+com\jyjays\pojo\User.class
+com\jyjays\pojo\Userselect.class
